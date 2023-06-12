@@ -1,3 +1,7 @@
+if exist _rom2maps.zip del /Q /F _rom2maps.zip
+
+"C:\Program Files\7-Zip\7z.exe" a -tzip _rom2maps.zip 1_intro\* 2_a2\* 3_kids\* 4_nival\* 5_med\* 6_hard\* 7_horror\* 8_t1\* 9_t2\* 10_t3\*
+
 copy /y 1_intro "..\a2\maps"
 copy /y 2_a2 "..\a2\maps"
 copy /y 3_kids "..\a2\maps"
