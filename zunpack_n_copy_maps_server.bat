@@ -14,6 +14,7 @@ xcopy /s /y "%~dp0new_maps\7_horror\*" "C:\Allods2\Server7\maps\"
 xcopy /s /y "%~dp0new_maps\8_t1\*" "C:\Allods2\Server8\maps\"
 xcopy /s /y "%~dp0new_maps\9_t2\*" "C:\Allods2\Server9\maps\"
 xcopy /s /y "%~dp0new_maps\10_t3\*" "C:\Allods2\Server10\maps\"
+xcopy /s /y "%~dp0new_maps\11_t4\*" "C:\Allods2\Server11\maps\"
 
 rd /s /q "%~dp0new_maps"
 del "%~dp0_rom2maps.zip"
